@@ -5,11 +5,11 @@ const Details = () => {
   return (
     <Container>
       <h4 className="text-lg">
-        Plexus is a crowdsourced project that relies on the community. You can
+        Vishuddha is a project that relies on the community. You can
         contribute{" "}
         <a
           className="text-brand font-semibold hover:text-brand-dark"
-          href="https://github.com/techlore-official/plexus"
+          href="https://github.com/venusuranus/vishuddha"
           rel="noopener noreferrer"
         >
           here

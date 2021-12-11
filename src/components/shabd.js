@@ -10,8 +10,8 @@ const Shabd = () => {
         edges {
           node {
             id
-            Application
-            Month
+            Word
+            Alternative
             fields {
               slug
             }
@@ -26,7 +26,7 @@ const Shabd = () => {
 
   const getAppList = () => {
     const words = data.allHindiCsv.edges.filter(({ node }) =>
-      node.Application.toLowerCase().includes(
+      node.Word.toLowerCase().includes(
         search !== "*" ? search.toLowerCase() : ""
       )
     );
@@ -39,7 +39,7 @@ const Shabd = () => {
         <div className="mt-8">
           <div className="flex justify-between items-center">
             <label
-              htmlFor="application"
+              htmlFor="word"
               className="text-lg leading-6 font-semibold text-gray-900 py-2"
             >
               Search
@@ -52,7 +52,7 @@ const Shabd = () => {
           <input
             onChange={(e) => setSearch(e.target.value)}
             value={search}
-            id="application"
+            id="word"
             className="form-input p-3 block w-full sm:text-md sm:leading-5 rounded-md shadow-sm outline-none border border-gray-400 focus:border-purple-300"
             placeholder="Enter word here"
             aria-describedby="application-optional"

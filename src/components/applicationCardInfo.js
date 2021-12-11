@@ -2,8 +2,8 @@ import React from "react";
 
 const ApplicationCardInfo = () => {
   const infos = [
-    { key: 3, description: "Application Name" },
-    { key: 4, description: "Month" },
+    { key: 3, description: "Word" },
+    { key: 4, description: "Alternative" },
   ];
 
   const buildDate = new Date();

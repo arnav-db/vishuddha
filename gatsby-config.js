@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Plexus`,
-    siteUrl: `https://plexus.techlore.tech`,
-    description: `Remove the fear of Android app compatibility on de-Googled devices.`,
-    author: `@tomkonidas`,
+    title: `Vishuddha`,
+    siteUrl: `https://github.com/venusuranus/vishuddha`,
+    description: `Unadulterated Hindi`,
+    author: `@venusuranus`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `plexus`,
-        short_name: `plexus`,
+        name: `vishuddha`,
+        short_name: `vishuddha`,
         start_url: `/`,
         background_color: `#e74c3c`,
         theme_color: `#e74c3c`,
@@ -49,7 +49,7 @@ module.exports = {
       resolve: "gatsby-plugin-slug-field",
       options: {
         filter: { internal: { type: "HindiCsv" } },
-        source: "Application",
+        source: "Word",
         fieldName: "slug",
       },
     },

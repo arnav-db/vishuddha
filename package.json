@@ -3,7 +3,7 @@
   "private": true,
   "description": "Remove the fear of Android app compatibility on de-Googled devices.",
   "version": "0.1.0",
-  "author": "Tom Konidas <tomkonidas@protonmail.ch>",
+  "author": "Arnav Purani <arnavpurani@live.com>",
   "dependencies": {
     "gatsby": "2.32.3",
     "gatsby-image": "2.11.0",

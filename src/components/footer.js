@@ -1,29 +1,11 @@
 import React from "react";
-import Techlore from "../images/techlore.inline.svg";
-import Matrix from "../images/matrix.png";
 
 const Footer = ({ siteTitle }) => (
   <footer className="bg-brand">
     <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
       <div className="flex justify-center md:order-2">
         <a
-          href="https://techlore.tech"
-          className="text-gray-100 hover:text-gray-200"
-          rel="noopener noreferrer"
-        >
-          <Techlore className="w-auto h-6" />
-        </a>
-        <a
-          href="https://app.element.io/#/room/#plexus:matrix.org"
-          className="ml-3 md:ml-5 text-gray-100 hover:text-gray-200"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <span className="sr-only">Matrix</span>
-          <img className="h-6 w-auto" src={Matrix} alt="Matrix.org" />
-        </a>
-        <a
-          href="https://github.com/techlore-official/plexus"
+          href="https://github.com/venusuranus/vishuddha"
           className="ml-3 md:ml-5 text-gray-100 hover:text-gray-200"
           rel="noopener noreferrer"
           target="_blank"
