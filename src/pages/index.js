@@ -13,7 +13,7 @@ const IndexPage = () => (
         <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none">
           Speak <br />
           <span className="text-5xl">
-            <span className="text-brand">un-adulterated</span> Hindi.
+            <span className="text-brand">unadulterated</span> Hindi.
           </span>
         </h2>
       </div>
