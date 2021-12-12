@@ -18,7 +18,7 @@ Edit the file [Hindi.csv](./src/data/Hindi.csv) and start a pull request with yo
 
 ### Contribute Method 2
 
-Send an email to support@techlore.tech, containing an excel file in the following format:
+Send an email to vishuddha.v2vd3@aleeas.com, containing an excel file in the following format:
 
 - Excel must consist of 2 columns
   1. Non-Hindi word
