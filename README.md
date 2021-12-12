@@ -1,14 +1,12 @@
-# Vishuddha
-
-<img src="src/images/logo.png" width="200" height="200">
-
-***Speak Unadulterated Hindi.***
+<p align="center">
+<img src="src/images/logo.png" width=auto height="120">
+<img src="src/images/hindi-light.png" width=auto height="100">
+</p>
+<p align="center">Speak Unadulterated Hindi.</p>
 
 ## Explanation
 
-Google Play Services are an integral part of most Android devices that enable users to utilize their Google account on their phone, as well as enable Google-specific features for applications that rely on them.
-
-When users move to a de-googled ROM like GrapheneOS, CalyxOS or LineageOS, they are faced with opening their standard applications hoping they work. Plexus aims to beat the guessing game and allow users to know exactly what will happen once they flash a new ROM. Plexus supports ROMs with no Google Play Services e.g: [(GrapheneOS)](https://grapheneos.org/), as well as ROMs with [microG](https://microg.org/), an open source alternative of Google Play Services, e.g: [(CalyxOS)](https://calyxos.org/). 
+Vishuddha aims to beat the guessing game and allow users to know exactly what will happen once they flash a new ROM. Plexus supports ROMs with no Google Play Services e.g: [(GrapheneOS)](https://grapheneos.org/), as well as ROMs with [microG](https://microg.org/), an open source alternative of Google Play Services, e.g: [(CalyxOS)](https://calyxos.org/). 
 
 
 **NOTE: Plexus is only for applications directly or indirectly from the Google Play Store. Please do not submit applications from F-Droid as they are all expected to work.**
