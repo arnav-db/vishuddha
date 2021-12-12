@@ -1,6 +1,6 @@
 # Vishuddha
 
-<img src="https://techlore.tech/plexus.png" width="200" height="200">
+<img src="src/images/logo.png" width="200" height="200">
 
 ***Speak Unadulterated Hindi.***
 

@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = ({ siteTitle }) => (
   <footer className="bg-brand">
-    <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+    <div className="max-w-screen-xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
       <div className="flex justify-center md:order-2">
         <a
           href="https://github.com/venusuranus/vishuddha"
-          className="ml-3 md:ml-5 text-gray-100 hover:text-gray-200"
+          className="ml-3 md:ml-5 text-brand-light hover:text-brand-dark"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -21,7 +21,7 @@ const Footer = ({ siteTitle }) => (
         </a>
       </div>
       <div className="mt-8 md:mt-0 md:order-1">
-        <p className="text-center text-base leading-6 text-gray-100">
+        <p className="text-center text-base leading-6 text-brand-light">
           &copy; {new Date().getFullYear()} {siteTitle}
         </p>
       </div>
