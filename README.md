@@ -2,7 +2,7 @@
 
 ***Speak Unadulterated Hindi.***
 
-## Explanation
+## About
 
 Vishuddha is a searchable, filterable database of Hindi words.
 
