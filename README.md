@@ -31,7 +31,7 @@ I will then update the spreadsheet myself.
 - Use multiple rows (one for each set of words) in case a non-Hindi word corresponds to multiple Hindi words or visa-versa.
 - Do not contribute words newly posted by [@ShuddhaHindi](https://www.reddit.com/user/ShuddhaHindi) on Reddit. I keep updating them here regularly.
 
-## Future Plans & Goals
+## Future Plans
 - Implement a 'tap to copy' feature.
 - Support for words in Devanagari.
 
