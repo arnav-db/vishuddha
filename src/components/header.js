@@ -12,12 +12,12 @@ const Header = ({ siteTitle }) => (
         <div className="lg:w-0 lg:flex-1">
           <h1 className="flex items-center">
             <a href="/">
-            <img className="h-6 w-auto sm:h-20" src={Logo} alt="Vishuddha" />
+            <img className="h-20 w-auto sm:h-20" src={Logo} alt="Vishuddha" />
             </a>
           </h1>
         </div>
         <div className="flex space-x-4">
-          <Link to="/help">
+          <Link to="/about">
             <div className="text-brand-light hover:text-brand">
               <InformationCircle className="w-auto h-10"/>
             </div>

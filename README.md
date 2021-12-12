@@ -7,53 +7,34 @@
 
 Vishuddha is a searchable, filterable database of Hindi words.
 
-Its purpose is to help you quickly find the Hindi terms for the non-Hindi words that are generally being used. It is a step towards learning and using a purer form of the language.
+Its purpose is to help you quickly find the Hindi terms for non-Hindi words that are usually being used. It is a step towards learning and using a purer form of the language.
 
 You can start using it [here](https://vishuddha.gatsbyjs.io/).
 
+## How To Contribute
 
-**NOTE: Plexus is only for applications directly or indirectly from the Google Play Store. Please do not submit applications from F-Droid as they are all expected to work.**
+### Contribute Method 1
 
+Edit the file [Hindi.csv](./src/data/Hindi.csv) and start a pull request with your words to submit. Ensure you're maintaining the proper CSV format in alphabetical order to make merging as simple as possible.
 
-## How To Contribute Your Applications
+### Contribute Method 2
 
-### Testing Standards
+Send an email to support@techlore.tech, containing an excel file in the following format:
 
-- Test only Google Play Store applications (Regardless of where they came from, including the Aurora Store)
-- Kindly disable Netguard and other blockers
-- No Google Play Services
-- Pay extra attention to notifications as some will not properly work. If you're testing on MicroG, it is assumed you have enabled GCM/FCM. If you have not enabled GCM/FCM, you are still free to report applications, but please exclude any information regarding missing notifications. (Notifications working is okay and encouraged even with GCM/FCM disabled.)
-- If you're testing from MicroG, only input data in the last two columns, and utilize two "X"s for the standard sections.
-- If you're testing from a fully de-googled ROM without MicroG, input data in the standard sections and mark the MicroG sections as "X"s
-
-### Contribute Method 1 (Recommended)
-
-Edit the file [Plexus.csv](./src/data/Plexus.csv) and start a pull request with your apps to submit. Ensure you're maintaining the proper CSV format in alphabetical order to make merging as simple as possible.
-
-1. App Name
-2. Month Last Tested
-3. Year Last Tested
-4. App score. Please refer to the rating section of the readme to help figure out what score a service is. We may change your score if it doesn't match our rating method. Label "X" if you're testing with MicroG.
-5. Any issues with the application. Explain your problems, or just say "No reported issues" if the app works perfectly. Label "X" if you're testing with MicroG.
-6. MicroG App Score. This is ONLY for users testing apps on MicroG. Please refer to the rating section of the readme to help figure out what score a service is. We may change your score if it doesn't match our rating method. Label "X" if you're not testing with MicroG.
-7. MicroG issues. Explain your problems, or just say "No reported issues" if the app works perfectly. Label "X" if you're not testing with MicroG.
-
-### Contribute Method 2 (Non-Github Method)
-
-Email support@techlore.tech with all your apps you use on your phone that are from the Google Play Store (Directly or Indirectly) with the following information:
-
-1. App Name
-2. Month Last Tested
-3. Year Last Tested
-4. App Score. Label "X" if you're testing with MicroG.
-5. Any issues with the application. Explain your problems, or just say none if the app works perfectly. Label "X" if you're testing with MicroG.
-6. MicroG App Score. Label "X" if you're not testing with MicroG.
-7. MicroG issues. Label "X" if you're not testing with MicroG.
+- Excel must consist of 2 columns
+  1. Non-Hindi word
+  2. Corresponding Hindi word
+- Use the email subject: "Vishuddha word request"
 
 I will then update the spreadsheet myself.
 
+### Notes
+- Use multiple rows (one for each set of words) in case a non-Hindi word corresponds to multiple Hindi words or visa-versa.
+- Do not contribute words newly posted by [@ShuddhaHindi](https://www.reddit.com/user/ShuddhaHindi) on Reddit. I keep updating them here regularly.
+
 ## Future Plans & Goals
-- Support for application package names & version numbers
-- Support for "recommended alternatives" similar to alternativeto.net
-- More thorough data showing what OS & ROM was used for testing
-- An app you can download from F-Droid that conveniently scans app on your phone allowing you to submit scores within a centralized location.
+- Implement a 'tap to copy' feature.
+- Support for words in Devanagari.
+
+## Inspiration
+This project is inspired by the work of [@johnkarter767612](https://www.reddit.com/user/johnkarter767612).

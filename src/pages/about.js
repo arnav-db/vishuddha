@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 
 import SearchCircle from "../images/search.inline.svg";
 
-const Help = () => (
+const About = () => (
   <Layout>
     <SEO title="About" />
     <Container>
@@ -27,4 +27,4 @@ const Help = () => (
   </Layout>
 );
 
-export default Help;
+export default About;
