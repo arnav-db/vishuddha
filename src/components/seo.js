@@ -50,7 +50,7 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `image`,
           property: `og:image`,
-          content: `https://plexus.techlore.tech/og-plexus.jpg`,
+          content: `src/images/logo.png`,
         },
         {
           property: `og:type`,
@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: `https://plexus.techlore.tech/og-plexus.jpg`,
+          content: `src/images/logo.png`,
         },
       ].concat(meta)}
     />

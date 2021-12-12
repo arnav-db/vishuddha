@@ -1,12 +1,15 @@
-<p align="center">
 <img src="src/images/logo.png" width=auto height="120">
 <img src="src/images/hindi-light.png" width=auto height="100">
-</p>
-<p align="center">Speak Unadulterated Hindi.</p>
+
+***Speak Unadulterated Hindi.***
 
 ## Explanation
 
-Vishuddha aims to beat the guessing game and allow users to know exactly what will happen once they flash a new ROM. Plexus supports ROMs with no Google Play Services e.g: [(GrapheneOS)](https://grapheneos.org/), as well as ROMs with [microG](https://microg.org/), an open source alternative of Google Play Services, e.g: [(CalyxOS)](https://calyxos.org/). 
+Vishuddha is a searchable, filterable database of Hindi words.
+
+Its purpose is to help you quickly find the Hindi terms for the non-Hindi words that are generally being used. It is a step towards learning and using a purer form of the language.
+
+You can start using it [here](https://vishuddha.gatsbyjs.io/).
 
 
 **NOTE: Plexus is only for applications directly or indirectly from the Google Play Store. Please do not submit applications from F-Droid as they are all expected to work.**
