@@ -1,8 +1,5 @@
 <img src="src/images/hindi-light-logo.png" width=auto height="100">
 
-<br>
-<br>
-
 ***Speak Unadulterated Hindi.***
 
 ## Explanation
