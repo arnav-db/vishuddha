@@ -3,7 +3,6 @@ import Layout from "../components/layout";
 import Shabd from "../components/shabd";
 import SEO from "../components/seo";
 import Container from "../components/container";
-import Details from "../components/details";
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +16,6 @@ const IndexPage = () => (
         </h2>
       </div>
     </Container>
-    <Details />
     <Shabd />
   </Layout>
 );

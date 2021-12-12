@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Container from "../components/container";
+import Details from "../components/details";
 import SEO from "../components/seo";
 
 import SearchCircle from "../images/search.inline.svg";
@@ -19,11 +20,8 @@ const About = () => (
           </div>
         </Link>
       </h1>
-      <div className="my-20 flex flex-col items-start">
-        <h3 className="mb-6 text-3xl font-bold">Application Card breakdown.</h3>
-        <div className="font-bold text-brand">lol</div>
-      </div>
     </Container>
+    <Details />
   </Layout>
 );
 

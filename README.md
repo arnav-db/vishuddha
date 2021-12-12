@@ -9,7 +9,7 @@ Vishuddha is a searchable, filterable database of Hindi words.
 
 Its purpose is to help you quickly find the Hindi terms for non-Hindi words that are usually being used. It is a step towards learning and using a purer form of the language.
 
-You can start using it [here](https://vishuddha.gatsbyjs.io/).
+**You can start using it [here](https://vishuddha.gatsbyjs.io/).**
 
 ## How To Contribute
 
@@ -36,5 +36,5 @@ I will then update the spreadsheet myself.
 - Implement a 'tap to copy' feature.
 - Support for words in Devanagari.
 
-## Inspiration
+## Credits
 This project is inspired by the work of [@johnkarter767612](https://www.reddit.com/user/johnkarter767612).
