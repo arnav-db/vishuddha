@@ -20,8 +20,10 @@
     "gatsby-transformer-sharp": "2.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
+    "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-simple-snackbar": "^1.1.11"
   },
   "devDependencies": {
     "prettier": "2.1.0",
