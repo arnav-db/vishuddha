@@ -36,4 +36,6 @@ I will then update the spreadsheet myself.
 - Support for words in Devanagari.
 
 ## Credits
-This project is inspired by the work of [@johnkarter767612](https://www.reddit.com/user/johnkarter767612).
+- Tap-to-copy feature implemented by [nick2580](https://github.com/venusuranus/vishuddha/pulls?q=is%3Apr+author%3Anick2580).
+
+- This project is inspired by the work of [@johnkarter767612](https://www.reddit.com/user/johnkarter767612).
