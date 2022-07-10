@@ -32,7 +32,6 @@ I will then update the spreadsheet myself.
 - Do not contribute words newly posted by [@ShuddhaHindi](https://www.reddit.com/user/ShuddhaHindi) on Reddit. I keep updating them here regularly.
 
 ## Future Plans
-- Implement a 'tap to copy' feature.
 - Support for words in Devanagari.
 
 ## Credits
